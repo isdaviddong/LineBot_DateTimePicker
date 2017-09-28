@@ -8,7 +8,7 @@ using System.Web.Http;
 namespace WebApplication1.Controllers
 {
     public class LinebotController : ApiController
-    {
+    { 
         [HttpPost]
         public IHttpActionResult POST()
         {

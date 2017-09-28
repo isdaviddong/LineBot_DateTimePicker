@@ -15,7 +15,7 @@ namespace WebApplication1
         }
 
         protected void Button1_Click(object sender, EventArgs e)
-        {
+        { 
             //建立Bot instance
             isRock.LineBot.Bot bot =
                 new isRock.LineBot.Bot("!!!!!!!!!!請改用自己的Line bot Token!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");  //傳入Channel access token
